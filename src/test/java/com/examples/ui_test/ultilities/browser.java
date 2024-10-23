@@ -1,6 +1,5 @@
-package demo.ex.ultilities;
+package com.examples.ui_test.ultilities;
 
-import demo.ex.pages.loginPage;
 import net.serenitybdd.core.pages.PageObject;
 import org.junit.Assert;
 import org.openqa.selenium.chrome.ChromeDriver;

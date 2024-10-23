@@ -1,7 +1,7 @@
-package demo.ex.definitions;
+package com.examples.ui_test.definitions;
 
-import demo.ex.steps.loginStep;
-import demo.ex.ultilities.browser;
+import com.examples.ui_test.steps.loginStep;
+import com.examples.ui_test.ultilities.browser;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,7 +13,6 @@ public class loginDef{
 
     @Steps(shared = true)
     loginStep loginStep;
-
 
     @Given("el usuario ingresa al sitio web")
     public void userNavitacionTo(){

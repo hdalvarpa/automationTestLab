@@ -1,6 +1,6 @@
-package demo.ex.steps;
+package com.examples.ui_test.steps;
 
-import demo.ex.pages.loginPage;
+import com.examples.ui_test.pages.loginPage;
 import net.thucydides.core.annotations.Step;
 
 public class loginStep extends loginPage {
